@@ -103,3 +103,14 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+
