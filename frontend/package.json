@@ -12,7 +12,7 @@
     "solid-start-node": "^0.3.10",
     "tailwindcss": "^3.3.6",
     "typescript": "^5.3.2",
-    "vite": "^4.4.8"
+    "vite": "^4.5.1"
   },
   "dependencies": {
     "@solidjs/meta": "^0.28.0",
