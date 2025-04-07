@@ -1,8 +1,8 @@
 use axum::{
     http::StatusCode,
-    Json,
     response::IntoResponse,
-    Router, routing::{get, post},
+    routing::{get, post},
+    Json, Router,
 };
 use serde::{Deserialize, Serialize};
 use std::net::SocketAddr;
