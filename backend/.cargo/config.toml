@@ -1,8 +1,8 @@
-[unstable]
-codegen-backend = true
+#[unstable]
+#codegen-backend = true
 
 [profile.dev]
-codegen-backend = "cranelift"
+#codegen-backend = "cranelift"
 
 [build]
 jobs = 4
@@ -28,16 +28,16 @@ protocol = "sparse"
 
 [target.x86_64-unknown-linux-gnu]
 linker = "clang"
-rustflags = [
-    "-C",
-    "link-arg=-fuse-ld=mold",
-]
+#rustflags = [
+#    "-C",
+#    "link-arg=-fuse-ld=mold",
+#]
 [target.aarch64-unknown-linux-gnu]
 linker = "aarch64-linux-gnu-gcc"
-rustflags = [
-    "-Z",
-    "new-llvm-pass-manager=no",
-]
+#rustflags = [
+#    "-Z",
+#    "new-llvm-pass-manager=no",
+#]
 [target.aarch64-unknown-linux-musl]
 linker = "/usr/bin/clang"
 rustflags = ["-C", "link-arg=-fuse-ld=mold"]
