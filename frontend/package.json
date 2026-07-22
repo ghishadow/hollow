@@ -11,7 +11,7 @@
     "postcss": "^8.5.19",
     "solid-start-node": "^0.3.11",
     "tailwindcss": "^4.2.1",
-    "typescript": "^5.9.3",
+    "typescript": "^7.0.2",
     "vite": ">=8.1.5"
   },
   "dependencies": {
